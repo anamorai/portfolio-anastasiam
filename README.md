@@ -18,13 +18,13 @@ https://img.shields.io/badge/https%3A%2F%2Fanamorai.github.io%2Fportfolio-anasta
 
 Once you open the URL, you will see the following:
 
-![This is the first thing you will see after opening the website](/Challenge/portfolio-anastasiam/assets/images/1.png)
+![This is the first thing you will see after opening the website](assets/images/1.png)
 
 
 By clicking on the buttons in the top right, you can navigate to the sections within the page. 
 It will look like this: 
 
-![If you scroll down, it will look like this](/Challenge/portfolio-anastasiam/assets/images/2.png)
+![If you scroll down, it will look like this](assets/images/2.png)
 
 
 ## Badges
