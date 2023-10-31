@@ -1,4 +1,4 @@
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -8,13 +8,8 @@ header {
 }
 
 header h1 {
-  font-weight: 300;
-}
-
-.hero-banner {
-  display: flex;
-  align-items:start;
-  justify-content:space-evenly;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 /* nav styles */
@@ -26,16 +21,20 @@ header h1 {
   padding: 15px 30px;
 }
 
-#navigation a {
+.navi {
   cursor:default;
-  text-decoration: none;
   color: black;
   font-size: 25px;
   padding : 0 10px 0 10px;
 }
 
-a:hover {
+.navi:hover {
   background-color: rgb(126, 205, 232);
+}
+
+.hero-banner {
+  display: flex;
+  justify-content:space-evenly;
 }
 
 /* container styles */
@@ -45,20 +44,20 @@ main {
   background-position-y: top;
   background-size: 500px;
 }
+
 /* About Section */
+
 .aboutme {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
   padding: 20px;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   align-items: center;
 }
 
 .aboutme h3 {
-  font-weight: bold;
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
+  opacity: 0.8; 
   padding: 10px;
   font-size: 30px;
   flex: 20%;
@@ -81,9 +80,7 @@ img {
 
 .workdisp {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
   padding: 20px;
-  font-size: 20px;
   display: flex;
   align-items: center;
 }
@@ -91,7 +88,7 @@ img {
 .worktitle {
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
+  opacity: 0.8; 
   padding: 10px;
   font-size: 30px;
   flex: 20%;
@@ -105,39 +102,82 @@ img {
   border-left: 10px solid pink;
 }
 
+.text {
+ background-color: pink;
+ opacity: 0.8; 
+ color: white;
+ font-size: 40px;
+ text-decoration:none;
+}
+
 .mainbox {
-  height: 200px;
+  height: 500px;
+  margin: 20px;
+  background-image: url(../images/organics.png);
+  background-size:contain;
   width: auto;
+  border: 5px solid black;
+  align-items:end;
+  display: flex;
 }
 
 .top, .bottom {
 display: flex;
-height: 100px;
+height: 200px;
+margin: 20px;
+width: auto;
 }
 
-.topright, .bottomright, .topleft, .bottomleft {
-  height: 100px;
-  border: 2px solid black;
+.topright {
+  border: 5px solid black;
   flex: 50%;
-  font-size: 22px;
-  align-items: center;
+  background-image: url(../images/treatbox.png);
+  background-size:contain;
+  align-items:end;
+  display: flex;
+  }
+
+.bottomright {
+  border: 5px solid black;
+  flex: 50%;
+  align-items:end;
+  background-image: url(../images/treehouse.jpg);
+  background-size:contain;
+  display: flex;
+  }
+
+.topleft {
+  border: 5px solid black;
+  flex: 50%;
+  align-items:end;
+  background-image: url(../images/Wild3.jpg);
+  background-size:contain;
+  display: flex;
+  }
+
+ .bottomleft {
+  border: 5px solid black;
+  flex: 50%;
+  align-items:end;
+  background-image: url(../images/buzzy.png);
+  background-size:contain;
+  display: flex;
   }
   
   /* Contact section */
 
 .contactme {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
   padding: 20px;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   align-items: center;
+
 }
 
 .contactme h3 {
-  font-weight: bold;
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
+  opacity: 0.8; 
   padding: 10px;
   font-size: 30px;
   flex: 20%;
@@ -156,4 +196,13 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+/* Link styling */
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+a {
+  text-decoration: none;
+  color: black;
+}
