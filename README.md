@@ -12,8 +12,6 @@ To complete this I will be
 
 To open the project please follow this link: https://anamorai.github.io/portfolio-anastasiam/
 
-https://img.shields.io/badge/https%3A%2F%2Fanamorai.github.io%2Fportfolio-anastasiam%2F
-
 ## Usage 
 
 Once you open the URL, you will see the following:
@@ -21,7 +19,7 @@ Once you open the URL, you will see the following:
 ![This is the first thing you will see after opening the website](assets/images/1.png)
 
 
-By clicking on the buttons in the top right, you can navigate to the sections within the page. 
+By clicking on the buttons in the top right, you can navigate to the sections further down within the page. 
 It will look like this: 
 
 ![If you scroll down, it will look like this](assets/images/2.png)
@@ -29,7 +27,11 @@ It will look like this:
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/portfolio-anastasiam//github-pages)
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/portfolio-anastasiam/github-pages)
+
+
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/portfolio-anastasiam)
+
 
 ## Features
 
