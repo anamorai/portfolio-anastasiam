@@ -207,7 +207,8 @@ a {
   color: black;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Media Queries for responsive website */
+
 @media only screen and (max-width: 600px) {
   body {font-size: 13px;}
   aside {font-size: 13px;}
@@ -221,7 +222,6 @@ a {
   .contactme h3 {font-size: 18px;}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body {font-size: 15px;}
     aside {font-size: 15px;}
@@ -235,7 +235,6 @@ a {
     .contactme h3 {font-size: 20px;}
   }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body {font-size: 15px;}
   aside {font-size: 15px;}
@@ -247,7 +246,6 @@ a {
   header h1 {font-size: 50px;}
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
     header {height: 220px;}
     body {font-size: 30px;}
