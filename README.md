@@ -43,6 +43,9 @@ It will look like this:
 I would like to refrence the following website I used to guide me with the flexbox styling:
 https://www.w3schools.com/css/css3_flexbox_container.asp
 
+I would also like to give refrence to the following website that I used for assistance with media queries:
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
 ## License
 
 MIT License
