@@ -235,6 +235,21 @@ a {
     .contactme h3 {font-size: 18px;}
   }
 
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {font-size: 13px;}
+  aside {font-size: 13px;}
+  .navi {font-size: 16px;}
+  .text {font-size: 13px;}
+  .contactme aside {border-left: 5px solid pink;}
+  .workshowcase {border-left: 5px solid pink;}
+  .aboutme aside {border-left: 5px solid pink;}
+  .aboutme h3 {font-size: 18px;}
+  .worktitle {font-size: 18px;}
+  .contactme h3 {font-size: 18px;}
+  header h1 {font-size: 50px;}
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
     header {height: 220px;}
