@@ -250,14 +250,14 @@ a {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
     header {height: 220px;}
-    body {font-size: 32px;}
-    aside {font-size: 32px;}
-    .navi {font-size: 40px;}
-    .text {font-size: 32px;}
+    body {font-size: 30px;}
+    aside {font-size: 30px;}
+    .navi {font-size: 35px;}
+    .text {font-size: 30px;}
     .contactme aside {border-left: 15px solid pink;}
     .workshowcase {border-left: 15px solid pink;}
     .aboutme aside {border-left: 15px solid pink;}
-    .aboutme h3 {font-size: 45px;}
-    .worktitle {font-size: 45px;}
-    .contactme h3 {font-size: 45px;}
+    .aboutme h3 {font-size: 40px;}
+    .worktitle {font-size: 40px;}
+    .contactme h3 {font-size: 40px;}
   }
